@@ -1,5 +1,8 @@
 # DP-Splat
 
+[![arXiv](https://img.shields.io/badge/arXiv-2607.10912-b31b1b.svg)](https://arxiv.org/abs/2607.10912)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Bayesian nonparametric complexity control for Gaussian splatting: a (truncated) stick-breaking
 Dirichlet-Process prior — plus a sparse overfitted-Dirichlet variant — over mixture weights in a
 VBGS-style conjugate variational Gaussian-splatting model. The number of occupied components adapts
@@ -50,3 +53,15 @@ for tables. Rasterized novel-view benchmarks are scoped to follow-up work (GPU r
 License (see `third_party/vbgs/LICENSE.txt`); it is used here for academic research only and
 is excluded from release artifacts. Any publication from this project includes: "The Software
 used in this research was created by VERSES, Inc. © 2024 VERSES AI, Inc."
+
+
+## Citation
+
+```bibtex
+@article{dong2026dpsplat,
+  title   = {DP-Splat: Bayesian Nonparametric Complexity Control for Gaussian Splatting},
+  author  = {Dong, Aqi},
+  journal = {arXiv preprint arXiv:2607.10912},
+  year    = {2026}
+}
+```
